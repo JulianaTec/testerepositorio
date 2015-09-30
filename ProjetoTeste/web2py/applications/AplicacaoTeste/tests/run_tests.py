@@ -27,7 +27,6 @@ mods=['controllers','modules']
 for m in mods:
     sys.path.append(os.path.abspath(PROJECT_PATH+'/'+m))
 
-print sys.path
 # Roda os testes da pasta test/
 from unittest import TestLoader, TextTestRunner
 if __name__ == '__main__':
