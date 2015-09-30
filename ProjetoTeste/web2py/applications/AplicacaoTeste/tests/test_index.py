@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-# Importa o controlador que será testado
+# Importa o controlador que sera testado
 import default
 
 __author__ = 'TecSUS-3'
